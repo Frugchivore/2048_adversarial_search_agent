@@ -13,3 +13,12 @@ It can be assumed that all the Python files not listed below were provided by ed
 - [*SilentGameManager_3.py*](./SilentGameManager_3.py): I modified the default GameManager to not display the game board and score on screen. This speeds up the execution and allows us to
 train the AI.
 - [*training_AI.py*](./training_AI.py): Contains the classes BayesianOptimizer, GeneticAlgorithm and code to start a training task. The goal being to find the appropriate weights in our heuristic function.
+
+#### Detailed description:
+
+I worked through various adversarial search algorithms such as MiniMax, Alpha-Beta Search and their iterative deepening variants to allow an agent to maximise its score at 2048.
+
+I also worked through building heuristic functions. After hand-crafting features for the functions, I tried to find the best weights via various methods.
+
+To do that I built a Genetic Algorithm solver from scratch. I also leveraged the BayesOpt package to use Bayesian Optimisation as an alternative method.
+
