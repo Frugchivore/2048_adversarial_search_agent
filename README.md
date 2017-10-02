@@ -7,7 +7,7 @@ either via a Genetic Algorithm solver I wrote or using the Bayesian Optimization
 
 #### Structure of the project:
 
-It can be assumed that all the files not listed below were provided by edX.
+It can be assumed that all the Python files not listed below were provided by edX.
 
 - [*PlayerAI_3.py*](./PlayerAI_3.py): Contains the Agent, the various Solvers available as well as the Heuristic class.
 - [*SilentGameManager_3.py*](./SilentGameManager_3.py): I modified the default GameManager to not display the game board and score on screen. This speeds up the execution and allows us to
